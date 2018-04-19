@@ -7,9 +7,9 @@ end
 
 % check if it is the right version (beta-20)
 mcnv = getMatConvNetVersion(matconvnet_path);
-if ~strcmp(mcnv, '1.0-beta20')
-    error('Your MatConvNet version (%s) is not the required version 1.0-beta20. Please download and compile the right version.', mcnv);
-end
+% if ~strcmp(mcnv, '1.0-beta20')
+%     error('Your MatConvNet version (%s) is not the required version 1.0-beta20. Please download and compile the right version.', mcnv);
+% end
 
 % if everything is fine, then set up
 run(fullfile(matconvnet_path, 'matlab', 'vl_setupnn.m'));

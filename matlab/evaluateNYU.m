@@ -7,7 +7,8 @@ function evaluateNYU
 % -------------------------------------------------------------------------
 
 % Set your matconvnet path here:
-matconvnet_path = '../../matconvnet-1.0-beta20';
+% matconvnet_path = '../../matconvnet-1.0-beta20';
+matconvnet_path = 'D:\matlab\DeepLearning\MatConvNet\matconvnet-1.0-beta25';
 setupMatConvNet(matconvnet_path);
 
 % -------------------------------------------------------------------------
